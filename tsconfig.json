@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es5"
+    ],
+    "outDir": "dst",
+    "declaration": true,
+    "declarationDir": "dst"
+  },
+  "exclude": [
+    "./node_modules"
+  ],
+  "include": [
+    "./src/**/*.ts"
+  ]
+}

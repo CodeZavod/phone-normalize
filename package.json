@@ -1,0 +1,40 @@
+{
+  "name": "@codezavod/phone-normalize",
+  "version": "1.0.0",
+  "description": "Normalizes russian mobile phone numbers",
+  "author": "Vadim Petrov <imposibrus@gmail.com> (https://imposibrus.space/)",
+  "license": "MIT",
+  "keywords": [
+    "phone",
+    "normalize"
+  ],
+  "main": "dst/index.js",
+  "typings": "dst/index.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "prepack": "gulp compile && npm test"
+  },
+  "homepage": "https://github.com/CodeZavod/phone-normalize",
+  "bugs": {
+    "url": "https://github.com/CodeZavod/phone-normalize/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeZavod/phone-normalize.git"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "files": [
+    "dst/index.js",
+    "dst/index.d.ts"
+  ],
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-typescript": "3.2.3",
+    "merge2": "1.2.0",
+    "mocha": "4.1.0",
+    "should": "13.2.0",
+    "typescript": "2.6.2"
+  }
+}
